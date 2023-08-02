@@ -1,0 +1,8 @@
+Geladeira Philco PRF535ID	Eletrodomésticos	Geladeiras	5000.0	10	99	2250	./src/main/resources/images/GeladeiraPhilco.jpg
+Geladeira Electrolux Efficient Black	Eletrodomésticos	Geladeiras	5200.0	12	95	2285	./src/main/resources/images/geladeira electrolux2.jpg
+Fogão Esmaltec 4 bocas	Eletrodomésticos	Fogões	1200.0	20	99	480	./src/main/resources/images/Esmaltec.jpeg
+Fogão 5 bocas Atlas	Eletrodomésticos	Fogões	1300.0	10	99	585	./src/main/resources/images/AtlasFogao.jpeg
+Liquidificador Mondial 1,5L	Eletrodomésticos	Liquidificadores	150.0	20	96	60	./src/main/resources/images/LiqMondial.jpg
+Liquidificador Arno 1L	Eletrodomésticos	Liquidificadores	270.0	10	99	120	./src/main/resources/images/LiqArno.jpg
+Ventilador de Mesa Mondial NV-15-6P	Eletrodomésticos	Ventiladores	120.0	20	98	45	./src/main/resources/images/VentiladorMondial.jpeg
+Ventilador Ventisol Turbo 6	Eletrodomésticos	Ventiladores	200.0	20	99	80	./src/main/resources/images/Ventisol.jpg

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sistemadeecommerce.MenuLogOutController">
+   <children>
+      <Button layoutX="242.0" layoutY="110.0" mnemonicParsing="false" onAction="#criarConta" text="Cadastrar-se" />
+      <Button layoutX="242.0" layoutY="173.0" mnemonicParsing="false" onAction="#login" prefHeight="26.0" prefWidth="102.0" text="Fazer login" />
+      <Button layoutX="249.0" layoutY="236.0" mnemonicParsing="false" onAction="#sair" prefHeight="26.0" prefWidth="83.0" text="Sair" />
+      <Label layoutX="235.0" layoutY="27.0" text="Seja bem-vindo(a)" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="899.0" prefWidth="1234.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sistemadeecommerce.ProdutosControllerAdm">
+  <content>
+    <AnchorPane fx:id="mainPane" prefHeight="893.0" prefWidth="1223.0">
+         <children>
+            <Label fx:id="labelCategoria" layoutX="25.0" layoutY="32.0" prefHeight="40.0" prefWidth="431.0">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Label>
+            <Button fx:id="menuAdicionaButton" layoutX="698.0" layoutY="40.0" mnemonicParsing="false" text="Adicionar" textFill="#d30b0b" AnchorPane.rightAnchor="40.0" />
+            <AnchorPane fx:id="criarProdutoPane" layoutX="1.0" layoutY="1.0" prefHeight="888.0" prefWidth="1220.0" style="-fx-background-color: white; -fx-border-color: black;" visible="false">
+               <children>
+                  <Label layoutX="32.0" layoutY="135.0" prefHeight="37.0" prefWidth="220.0" text="Nome do produto:">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="35.0" layoutY="260.0" prefHeight="39.0" prefWidth="214.0" text="Categoria:">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="41.0" layoutY="397.0" prefHeight="33.0" prefWidth="80.0" text="Preço:">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="41.0" layoutY="511.0" prefHeight="36.0" prefWidth="262.0" text="Desconto:">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="38.0" layoutY="604.0" prefHeight="40.0" prefWidth="309.0" text="Quantidade em estoque:">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+                  <AnchorPane layoutX="678.0" layoutY="172.0" prefHeight="400.0" prefWidth="400.0" style="-fx-border-color: black;" AnchorPane.leftAnchor="678.0">
+                     <children>
+                        <ImageView fx:id="imageViewProduto" fitHeight="400.0" fitWidth="400.0" pickOnBounds="true" />
+                        <Label fx:id="labelInserirImagem" layoutX="114.0" layoutY="167.0" prefHeight="66.0" prefWidth="186.0" text="Insira a imagem">
+                           <font>
+                              <Font size="22.0" />
+                           </font></Label>
+                     </children>
+                  </AnchorPane>
+                  <Label layoutX="658.0" layoutY="229.0" />
+                  <Button fx:id="buttonAdicionaImagem" layoutX="782.0" layoutY="603.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="181.0" text="Adicionar Imagem" />
+                  <TextField fx:id="textFieldProdutoNome" layoutX="37.0" layoutY="190.0" prefHeight="38.0" prefWidth="210.0" translateY="1.0" />
+                  <Label layoutX="46.0" layoutY="444.0" prefHeight="31.0" prefWidth="28.0" text="R$">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="textFieldProdutoPreco" layoutX="81.0" layoutY="444.0" prefHeight="32.0" prefWidth="161.0" />
+                  <TextField fx:id="textFieldProdutoDesconto" layoutX="41.0" layoutY="562.0" prefHeight="30.0" prefWidth="98.0" />
+                  <Label layoutX="151.0" layoutY="564.0" text="\%">
+                     <font>
+                        <Font size="22.0" />
+                     </font></Label>
+                  <TextField fx:id="textFieldProdutoEstoque" layoutX="41.0" layoutY="660.0" prefHeight="31.0" prefWidth="270.0" />
+                  <MenuButton fx:id="menuProdutoCategoria" disable="true" layoutX="38.0" layoutY="321.0" minWidth="130.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="192.0">
+                    <items>
+                      <MenuItem fx:id="menuItemBebidas" mnemonicParsing="false" text="Bebidas" />
+                      <MenuItem fx:id="menuItemAlimentos" mnemonicParsing="false" text="Alimentos" />
+                    </items>
+                  </MenuButton>
+                  <Button fx:id="buttonVolta" layoutX="650.0" layoutY="498.0" mnemonicParsing="false" text="Voltar" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="1020.0" />
+                  <Button fx:id="adicionaButton" layoutX="729.0" layoutY="498.0" mnemonicParsing="false" text="Adicionar" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="1100.0" />
+                  <Label layoutX="298.0" layoutY="260.0" prefHeight="40.0" prefWidth="179.0" text="Subcategoria:">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+                  <MenuButton fx:id="menuProdutoSubCategoria" disable="true" layoutX="298.0" layoutY="320.0" minWidth="130.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="222.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="alterarProdutoPane" layoutX="1.0" layoutY="1.0" prefHeight="888.0" prefWidth="1220.0" style="-fx-background-color: white; -fx-border-color: black;" visible="false">
+               <children>
+                  <Label layoutX="38.0" layoutY="135.0" prefHeight="37.0" prefWidth="220.0" text="Nome do produto:">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="35.0" layoutY="260.0" prefHeight="39.0" prefWidth="214.0" text="Categoria:">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="41.0" layoutY="397.0" prefHeight="33.0" prefWidth="80.0" text="Preço:">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="41.0" layoutY="511.0" prefHeight="36.0" prefWidth="262.0" text="Desconto:">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="41.0" layoutY="604.0" prefHeight="40.0" prefWidth="309.0" text="Quantidade em estoque:">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+                  <AnchorPane layoutX="678.0" layoutY="172.0" prefHeight="400.0" prefWidth="400.0" style="-fx-border-color: black;">
+                     <children>
+                        <ImageView fx:id="imageViewProduto1" fitHeight="400.0" fitWidth="400.0" pickOnBounds="true" />
+                        <Label fx:id="labelInserirImagem1" layoutX="114.0" layoutY="167.0" prefHeight="66.0" prefWidth="186.0" text="Insira a imagem">
+                           <font>
+                              <Font size="22.0" />
+                           </font></Label>
+                     </children>
+                  </AnchorPane>
+                  <Label layoutX="658.0" layoutY="229.0" />
+                  <Button fx:id="buttonAdicionaImagem1" layoutX="782.0" layoutY="603.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="181.0" text="Adicionar Imagem" />
+                  <TextField fx:id="textFieldProdutoNome1" layoutX="37.0" layoutY="190.0" prefHeight="38.0" prefWidth="210.0" />
+                  <Label layoutX="46.0" layoutY="444.0" prefHeight="31.0" prefWidth="28.0" text="R$">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="textFieldProdutoPreco1" layoutX="81.0" layoutY="444.0" prefHeight="32.0" prefWidth="161.0" />
+                  <TextField fx:id="textFieldProdutoDesconto1" layoutX="41.0" layoutY="562.0" prefHeight="30.0" prefWidth="98.0" />
+                  <Label layoutX="151.0" layoutY="564.0" text="\%">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Label>
+                  <TextField fx:id="textFieldProdutoEstoque1" layoutX="46.0" layoutY="661.0" prefHeight="31.0" prefWidth="270.0" />
+                  <MenuButton fx:id="menuProdutoCategoria1" disable="true" layoutX="38.0" layoutY="321.0" minWidth="130.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="192.0">
+                     <items>
+                        <MenuItem fx:id="menuItemBebidas1" mnemonicParsing="false" text="Celulares" />
+                        <MenuItem fx:id="menuItemAlimentos1" mnemonicParsing="false" text="Alimentos" />
+                     </items>
+                  </MenuButton>
+                  <Button fx:id="buttonVolta1" layoutX="599.0" layoutY="498.0" mnemonicParsing="false" text="Voltar" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="945.0" />
+                  <Button fx:id="alteraButton" layoutX="668.0" layoutY="498.0" mnemonicParsing="false" text="Alterar" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="1020.0" />
+                  <Button fx:id="deletaButton" layoutX="744.0" layoutY="498.0" mnemonicParsing="false" text="Deletar" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="1100.0" />
+                  <Label layoutX="298.0" layoutY="260.0" prefHeight="40.0" prefWidth="179.0" text="SubCategoria:">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+                  <MenuButton fx:id="menuProdutoSubCategoria1" disable="true" layoutX="298.0" layoutY="320.0" minWidth="130.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="222.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="visualizacaoProdutosPane" prefHeight="731.0" prefWidth="1078.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="18.0" AnchorPane.topAnchor="90.0" />
+            <Button fx:id="voltarMenuButton" layoutX="1023.0" layoutY="40.0" mnemonicParsing="false" text="Voltar" />
+         </children></AnchorPane>
+  </content>
+</ScrollPane>

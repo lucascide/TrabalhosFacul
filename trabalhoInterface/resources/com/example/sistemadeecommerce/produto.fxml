@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="893.0" prefWidth="1223.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sistemadeecommerce.ProdutoController">
+  <content>
+    <AnchorPane fx:id="mainPane" prefHeight="880.0" prefWidth="1211.0">
+         <children>
+            <Label fx:id="labelTituloProduto" layoutX="26.0" layoutY="24.0" prefHeight="40.0" prefWidth="789.0" text="Nome do produto:">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Label>
+            <Button fx:id="voltarButton" layoutX="929.0" layoutY="24.0" mnemonicParsing="false" text="Voltar" />
+            <Button fx:id="adicionarCarrinhoButton" layoutX="1019.0" layoutY="24.0" mnemonicParsing="false" text="Adicionar ao carrinho" />
+            <ImageView fx:id="imageViewProduto" fitHeight="376.0" fitWidth="406.0" layoutX="84.0" layoutY="132.0" pickOnBounds="true" />
+            <Label fx:id="produtoPreco" layoutX="677.0" layoutY="265.0" text="Label">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="produtoPrecoComDesconto" layoutX="677.0" layoutY="367.0" text="Label">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="produtoQuantidadeEmEstoque" layoutX="677.0" layoutY="472.0" text="Label">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <AnchorPane fx:id="paneProdutosSimilares" layoutX="37.0" layoutY="552.0" prefHeight="262.0" prefWidth="1183.0" />
+         </children></AnchorPane>
+  </content>
+</ScrollPane>

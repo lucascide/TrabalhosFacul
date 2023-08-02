@@ -1,0 +1,8 @@
+Suco de Uva Aurora 1,5L	Bebidas	Sucos	16.0	10	99	5	./src/main/resources/images/Untitled.jpeg
+Suco de Laranja Naturale 1L	Bebidas	Sucos	10.2	5	1	5	./src/main/resources/images/linha107_8.jpg
+Pepsi 1L	Bebidas	Refrigerantes	5.0	12	99	0	./src/main/resources/images/pepsi1L.jpeg
+Coca 1L	Bebidas	Refrigerantes	7.0	20	99	0	./src/main/resources/images/Coca1L.jpeg
+Água Mineral Crystal 250ml	Bebidas	Águas	3.0	33	99	0	./src/main/resources/images/Crystal250ml.jpeg
+Água do Mar 250ml	Bebidas	Águas	12.5	10	99	5	./src/main/resources/images/AguadoMar.jpeg
+RedBull 250ml	Bebidas	Energéticos	12.0	20	99	5	./src/main/resources/images/redbull250ml.png
+Monster Paradise 473	Bebidas	Energéticos	9.0	10	99	0	./src/main/resources/images/Monster.jpeg

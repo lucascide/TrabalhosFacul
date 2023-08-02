@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="644.0" prefWidth="853.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sistemadeecommerce.RelatorioController">
+   <content>
+      <AnchorPane layoutX="30.0" layoutY="40.0" prefHeight="639.0" prefWidth="844.0">
+         <children>
+            <Button fx:id="voltarButton" layoutX="729.0" layoutY="28.0" mnemonicParsing="false" text="Voltar" />
+            <Label layoutX="23.0" layoutY="20.0" text="Relatorio de compras">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Label>
+            <AnchorPane fx:id="relatoriosPane" layoutX="23.0" layoutY="105.0" prefHeight="532.0" prefWidth="800.0" />
+         </children></AnchorPane>
+   </content>
+</ScrollPane>

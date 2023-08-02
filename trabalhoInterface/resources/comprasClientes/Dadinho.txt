@@ -1,0 +1,12 @@
+Compra
+02-07-2023 11:00:33
+Produto	Unidades	Valor	Pontos
+Banana Nanica kg	1	6.4	0
+Resultado
+0	6.4	0
+Compra
+02-07-2023 11:04:02
+Produto	Unidades	Valor	Pontos
+Banana Nanica kg	3	19.200000000000003	0
+Resultado
+190	0.0	0

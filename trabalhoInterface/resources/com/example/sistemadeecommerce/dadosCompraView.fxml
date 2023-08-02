@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="893.0" prefWidth="1223.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sistemadeecommerce.DadosCompraController">
+  <content>
+    <AnchorPane fx:id="mainPane" prefHeight="889.0" prefWidth="1218.0">
+         <children>
+            <AnchorPane fx:id="finalPane" layoutX="32.0" layoutY="734.0" prefHeight="153.0" prefWidth="1166.0">
+               <children>
+                  <Label fx:id="precoTotalLabel" layoutX="20.0" layoutY="24.0" text="Label">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="pontosTotalLabel" layoutX="674.0" layoutY="24.0" text="Label">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="pontosGastosLabel" layoutX="20.0" layoutY="104.0" text="Label">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Label fx:id="carrinhoDeComprasLabel" layoutX="32.0" layoutY="27.0" text="Dados da Compra">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Label>
+            <Button fx:id="voltarButton" layoutX="1074.0" layoutY="35.0" mnemonicParsing="false" text="Voltar ao Inicio" />
+            <ScrollPane fx:id="scrollPaneProdutos" hbarPolicy="NEVER" layoutX="32.0" layoutY="126.0" prefHeight="608.0" prefWidth="1171.0">
+               <content>
+                  <AnchorPane fx:id="produtosPane" prefHeight="608.0" prefWidth="1171.0" />
+               </content>
+            </ScrollPane>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>

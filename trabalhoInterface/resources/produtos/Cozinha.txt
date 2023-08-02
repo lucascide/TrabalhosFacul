@@ -1,0 +1,8 @@
+Espátula de madeira	Cozinha	Espatulas	30.0	10	397	10	./src/main/resources/images/Captura de tela 2023-07-01 194611.png
+Conjunto copos de vidro azuis	Cozinha	Copos	20.0	5	398	5	./src/main/resources/images/Screenshot 2023-07-01 at 19-57-13 copos - Pesquisa Google.png
+Jogo de espátulas de silicone mais pegador	Cozinha	Espatulas	30.0	10	300	10	./src/main/resources/images/Screenshot 2023-07-01 at 19-48-48 espátula de silicone - Pesquisa Google.png
+Conjunto de 12 copos de plástico verdes	Cozinha	Copos	20.0	10	160	5	./src/main/resources/images/Captura de tela 2023-07-01 213626.png
+Conjunto tigelas de aço inox	Cozinha	Tigelas	40.0	20	500	15	./src/main/resources/images/41lbW4ezYHL._AC_SL1000_.jpg
+Tigelas de porcelana	Cozinha	Tigelas	35.0	5	320	15	./src/main/resources/images/71QM2vaYpWL._AC_UF894,1000_QL80_.jpg
+Jogo de 9 facas inox de cabo preto	Cozinha	Facas	16.0	10	280	5	./src/main/resources/images/Screenshot 2023-07-01 at 22-00-10 Kit De Facas 9 Peças Preto Tramontina Plenus Original Amazon.com.br.png
+Jogo de 4 facas inox de cabo vermelho 	Cozinha	Facas	15.0	12	400	5	./src/main/resources/images/Zanline-Jogo-De-Facas-4-PeC3A7as-Em-AC3A7o-Inox-Com-Cabos-Vermelhos-Conjunto-De-Facas-Cozinha-Simonaggio-0605-450189-3-zoom.jpg

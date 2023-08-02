@@ -1,0 +1,8 @@
+Maçã galã Vermelha und	Alimentos	Frutas	1.5	5	99	0	./src/main/resources/images/maca-vermelha-gala-kg_11276.jpg
+Banana Nanica kg	Alimentos	Frutas	8.0	20	99	0	./src/main/resources/images/foto_product.jpg
+Danoninho 320g	Alimentos	Derivados do leite	13.0	10	99	5	./src/main/resources/images/danoninho.jpeg
+Mussarela 250g	Alimentos	Derivados do leite	11.5	0	99	5	./src/main/resources/images/Mussarela.jpeg
+Caixa de bombons Garoto 250g	Alimentos	Chocolates	13.0	10	99	5	./src/main/resources/images/garoto.jpeg
+Diamante negro 165g	Alimentos	Chocolates	16.0	20	96	5	./src/main/resources/images/DiamanteNegro.jpeg
+Batata Ruffles 57g	Alimentos	Salgadinhos	8.0	10	99	0	./src/main/resources/images/Ruffles.jpeg
+Doritos 30g	Alimentos	Salgadinhos	4.0	20	96	0	./src/main/resources/images/Doritos300g_.jpg

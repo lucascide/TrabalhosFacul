@@ -1,0 +1,41 @@
+Compra
+02-07-2023 11:06:07
+Produto	Unidades	Valor	Pontos
+Pepsi 1L	1	4.4	0
+Resultado
+0	4.4	0
+Compra
+02-07-2023 11:23:49
+Produto	Unidades	Valor	Pontos
+Banana Nanica kg	2	12.8	0
+Resultado
+20	10.8	0
+Compra
+02-07-2023 11:24:04
+Produto	Unidades	Valor	Pontos
+Banana Nanica kg	1	6.4	0
+Resultado
+0	6.4	0
+Compra
+02-07-2023 12:54:31
+Produto	Unidades	Valor	Pontos
+Geladeira Electrolux Efficient Black	1	4576.0	2285
+Liquidificador Mondial 1,5L	1	120.0	60
+Diamante negro 165g	1	12.8	5
+Doritos 30g	1	3.2	0
+Camisa feminina corinthians	1	52.5	25
+Resultado
+0	4764.5	2375
+Compra
+02-07-2023 13:00:18
+Produto	Unidades	Valor	Pontos
+Geladeira Electrolux Efficient Black	1	4576.0	2285
+Ventilador de Mesa Mondial NV-15-6P	1	96.0	45
+Resultado
+0	4672.0	2330
+Compra
+02-07-2023 13:24:00
+Produto	Unidades	Valor	Pontos
+Kit lápis de grafite	2	36.0	10
+Resultado
+360	0.0	10

@@ -1,0 +1,8 @@
+Vestido de renda infantil vermelho	Roupas	Vestidos	60.0	30	120	20	./src/main/resources/images/vestido-infantil-de-renda-vermelho.jpg
+Vestido preto	Roupas	Vestidos	72.0	20	220	25	./src/main/resources/images/16691633716c93b22f36ca315e4a5863ad2d403173_thumbnail_600x.jpg
+Bermuda jeans azul	Roupas	Bermudas	63.0	5	300	30	./src/main/resources/images/917055_bermuda-john-560112_z116_638090746139719753.jpg
+Bermuda bege	Roupas	Bermudas	80.0	40	400	20	./src/main/resources/images/images.jpg
+Tênis masculino preto	Roupas	Calçados	80.0	30	320	25	./src/main/resources/images/pexels-aman-jakhar-1124466.jpg
+Sandália feminina rosa ou preta	Roupas	Calçados	63.0	10	200	25	./src/main/resources/images/pexels-jhoondias-14201110.jpg
+Camisa feminina corinthians	Roupas	Camisas	75.0	30	231	25	./src/main/resources/images/camisa-feminina-corinthians.jpg
+Camisa masculina listrada	Roupas	Camisas	90.0	20	340	35	./src/main/resources/images/9dbe9842c38891a1095db447b6ba6e3e.jpg

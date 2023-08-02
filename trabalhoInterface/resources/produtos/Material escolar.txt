@@ -1,0 +1,8 @@
+kit lápis de cor	Material escolar	Lápis	33.0	33	300	10	./src/main/resources/images/Screenshot 2023-07-01 at 22-12-29 lápis de cor - Pesquisa Google.png
+Kit lápis de grafite	Material escolar	Lápis	20.0	10	298	5	./src/main/resources/images/Captura de tela 2023-07-01 221424.png
+Kit de canetas multicolorido	Material escolar	Canetas	20.0	10	300	5	./src/main/resources/images/Screenshot 2023-07-01 at 22-15-08 canetas - Pesquisa Google.png
+Conjunto de três canetas	Material escolar	Canetas	20.0	10	300	5	./src/main/resources/images/Captura de tela 2023-07-01 221622.png
+Mochila escolar do homem-aranha	Material escolar	Mochilas	50.0	20	280	20	./src/main/resources/images/51z1t3HJ1BL._AC_SY679_.jpg
+Conjunto de mochila infantil mais lancheira e estojo	Material escolar	Mochilas	50.0	20	280	20	./src/main/resources/images/61EPObp-YML._AC_SX569_.jpg
+Caderno do Mickey Mouse	Material escolar	Cadernos	20.0	5	500	5	./src/main/resources/images/Captura de tela 2023-07-01 222004.png
+Caderno Now United	Material escolar	Cadernos	20.0	10	500	5	./src/main/resources/images/Captura de tela 2023-07-01 222044.png
